@@ -1,8 +1,8 @@
-name = "Academic"
+name = "Academic-SD"
 license = "MIT"
-licenselink = "https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md"
-description = "Easily create beautifully simple academic or personal sites"
-homepage = "https://github.com/gcushen/hugo-academic"
+licenselink = "https://github.com/Shaunakde/hugo-academic/blob/master/LICENSE.md"
+description = "Fork of the Hugo Academic theme, adjusted to my tastes."
+homepage = "https://github.com/Shaunakde/hugo-academic"
 min_version = 0.30
 tags = ["academic",
         "portfolio",
@@ -22,11 +22,11 @@ features = ["academic profile",
             ]
 
 [author]
-  name = "George Cushen"
-  homepage = "https://georgecushen.com"
+  name = "Shaunak De"
+  homepage = "https://shaunak.de"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "George Cushen"
+  homepage = "https://georgecushen.com"
+  repo = "https://github.com/gcushen/hugo-academic"
