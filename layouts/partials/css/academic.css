@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.0rem;
 }
 h2 {
   margin-top: 1rem;
@@ -617,7 +617,7 @@ article {
 }
 
 .article-title {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 .article-title a {
@@ -971,7 +971,19 @@ footer p {
 
 .site-footer,
 footer a#back_to_top i {
-  color: #899596;
+  /* color: #899596; */
+  color: {{ .Get "menu_text" }};
+}
+
+/* Adding a themed footer*/
+.site-footer{
+  color: {{ .Get "menu_text" }};
+  background-color: {{ .Get "menu_primary" }};
+}
+
+.site-footer a{
+  color:{{ .Get "menu_text" }};
+  font-weight: 700;
 }
 
 /*************************************************
